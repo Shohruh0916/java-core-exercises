@@ -2,7 +2,7 @@ package FoorLoop;
 
 import java.util.Scanner;
 
-public class for2 {
+public class for3 {
     public static void main(String[] args) {
         int a,b;
         Scanner scanner=new Scanner(System.in);
@@ -10,7 +10,7 @@ public class for2 {
         a=scanner.nextInt();
         System.out.print("Enter b:");
         b=scanner.nextInt();
-        for(int i=a; i<=b; i++){
+        for(int i=b-1; i>a; i--){
             System.out.print(i+" ");
         }
     }
