@@ -2,7 +2,7 @@ package While;
 
 import java.util.Scanner;
 
-public class while_1 {
+public class while_2 {
     public static  void main(String[] args) {
         int a,b;
         Scanner sc=new Scanner(System.in);
@@ -10,9 +10,11 @@ public class while_1 {
         a=sc.nextInt();
         System.out.print("b=");
         b=sc.nextInt();
+        int sanoq=0;
         while(a>b){
             a-=b;
+            sanoq++;
         }
-        System.out.println("result:"+a);
+        System.out.println("result:"+sanoq);
     }
 }
