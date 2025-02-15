@@ -2,17 +2,18 @@ package FoorLoop;
 
 import java.util.Scanner;
 
-public class for20 {
+public class For15 {
     public static void main(String[] args) {
         int n;
+        double a;
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter n:");
         n=sc.nextInt();
-        int result=0;
-        int s=1;
+        System.out.print("Enter a:");
+        a=sc.nextDouble();
+        double result=1.0;
         for(int i=1; i<=n; i++){
-            s*=i;
-            result+=s;
+            result*=a;
         }
         System.out.println(result);
     }

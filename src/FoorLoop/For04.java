@@ -2,16 +2,14 @@ package FoorLoop;
 
 import java.util.Scanner;
 
-public class for3 {
+public class For04 {
     public static void main(String[] args) {
-        int a,b;
+        int a;
         Scanner scanner=new Scanner(System.in);
         System.out.print("Enter :");
         a=scanner.nextInt();
-        System.out.print("Enter b:");
-        b=scanner.nextInt();
-        for(int i=b-1; i>a; i--){
-            System.out.print(i+" ");
+        for(int i=1; i<=10; i++){
+            System.out.println(i+" kg"+"="+i*a+" so'm");
         }
     }
 }

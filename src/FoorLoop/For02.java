@@ -2,18 +2,16 @@ package FoorLoop;
 
 import java.util.Scanner;
 
-public class for9 {
+public class For02 {
     public static void main(String[] args) {
         int a,b;
         Scanner scanner=new Scanner(System.in);
-        System.out.print("Enter a:");
+        System.out.print("Enter :");
         a=scanner.nextInt();
         System.out.print("Enter b:");
         b=scanner.nextInt();
-        int sum=0;
         for(int i=a; i<=b; i++){
-            sum+=i*i;
+            System.out.print(i+" ");
         }
-        System.out.println("sum:"+sum);
     }
 }

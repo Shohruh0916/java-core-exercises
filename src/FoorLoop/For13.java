@@ -2,7 +2,7 @@ package FoorLoop;
 
 import java.util.Scanner;
 
-public class for13 {
+public class For13 {
     public static void main(String[] args) {
         int n;
         Scanner sc=new Scanner(System.in);
