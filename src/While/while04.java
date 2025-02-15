@@ -2,22 +2,20 @@ package While;
 
 import java.util.Scanner;
 
-public class while_5 {
+public class while04 {
     public static  void main(String[] args) {
         int n;
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter n:");
         n=sc.nextInt();
         int y=1;
-        int daraja=0;
         while(y<n){
-            y*=2;
-            daraja++;
+            y*=3;
         }
         if(y==n){
-            System.out.println(n+" 2 ning "+daraja+"-darajasi");
+            System.out.println(n+" 3 ning darjasi");
         }else{
-            System.out.println("2 ning darajasi emas!");
+            System.out.println("Darajasi emas!");
         }
     }
 }

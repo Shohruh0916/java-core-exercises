@@ -2,18 +2,17 @@ package While;
 
 import java.util.Scanner;
 
-public class while_6 {
+public class while03 {
     public static  void main(String[] args) {
-        int n;
+        int n,k;
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter n:");
         n=sc.nextInt();
-        int result=1;
-        int s=n;
-        while(s>0){
-            result*=s;
-            s-=2;
+        System.out.print("Enter k:");
+        k=sc.nextInt();
+        while(n>k){
+            n-=k;
         }
-        System.out.println(result);
+        System.out.println("result:"+n);
     }
 }
