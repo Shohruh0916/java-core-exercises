@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Boolean10 {
     public static void main(String[] args) {
-        int a,b,c;
+        int a,b;
         Scanner scanner=new Scanner(System.in);
         System.out.print("Enter a:");
         a=scanner.nextInt();
