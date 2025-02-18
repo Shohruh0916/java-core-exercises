@@ -19,8 +19,7 @@ public class For28 {
             factorial *= (2 * i) * (2 * i );
             sum += (y * term) / factorial;
         }
-        System.out.println("Yig'indi: " + sum);
-
+        System.out.println("Yig'indi:" + sum);
     }
 }
 
