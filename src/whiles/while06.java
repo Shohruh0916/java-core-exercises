@@ -1,18 +1,19 @@
-package While;
+package whiles;
 
 import java.util.Scanner;
 
-public class while03 {
+public class while06 {
     public static  void main(String[] args) {
-        int n,k;
+        int n;
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter n:");
         n=sc.nextInt();
-        System.out.print("Enter k:");
-        k=sc.nextInt();
-        while(n>k){
-            n-=k;
+        int result=1;
+        int s=n;
+        while(s>0){
+            result*=s;
+            s-=2;
         }
-        System.out.println("result:"+n);
+        System.out.println(result);
     }
 }
