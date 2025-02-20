@@ -27,7 +27,6 @@ public class Cases12 {
             default:
                 System.out.println("xato");
         }
-
     }
 }
 

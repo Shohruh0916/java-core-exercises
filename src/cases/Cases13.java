@@ -1,7 +1,6 @@
 package cases;
 
 import java.util.Scanner;
-
 public class Cases13 {
     public static void main(String[] args) {
         double a;

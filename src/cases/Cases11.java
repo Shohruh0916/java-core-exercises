@@ -26,7 +26,7 @@ public class Cases11 {
             }
         }
         System.out.println("Lokatrning yakuniy yo'nalishi: " + currentDirection);
-            }
-        }
+    }
+}
 
 
