@@ -3,7 +3,7 @@ package functions;
 
 import java.util.Scanner;
 
-public class FunSimple010 {
+public class FunSimple10 {
     public static void Swap(int a,int b){
         int x;
         x=a;
