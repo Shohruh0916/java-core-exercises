@@ -3,29 +3,21 @@ package functions;
 import java.util.Scanner;
 
 public class Functions05 {
-    public  static  void SumRange(int a, int b){
-        int sum=0;
-        if(a<b){
-            for(int i=a; i<b; i++){
-                sum+=i;
-            }
-        }else{
-            System.out.println(0);
-        }
-        System.out.println(sum);
+    public  static  void Triangle(double a, double h){
+        double b=Math.sqrt(Math.pow((a/2),2)+Math.pow(h,2));
+        double result=a+b+b;
+        System.out.println(result);
     }
-    public  static  void SumRange(){
+    public  static  void Triangle(){
         Scanner scanner=new Scanner(System.in);
         System.out.print("Enter a:");
-        int a=scanner.nextInt();
-        System.out.print("Enter b:");
-        int b=scanner.nextInt();
-        System.out.print("Enter c:");
-        int c=scanner.nextInt();
-        SumRange(a,b);
-        SumRange(b,c);
+        double a=scanner.nextDouble();
+        System.out.print("Enter h:");
+        double h=scanner.nextDouble();
+        Triangle(a,h);
+
     }
     public static void main(String[] args) {
-        SumRange();
+       Triangle();
     }
 }

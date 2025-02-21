@@ -3,29 +3,29 @@ package functions;
 import java.util.Scanner;
 
 public class Functions06 {
-    public static void Calc(double a, double b, int n){
-        switch(n){
-            case 1:
-                System.out.println(a-b); break;
-            case 2:
-                System.out.println(a*b); break;
-            case 3:
-                System.out.println(a/b); break;
-            default:
-                System.out.println(a+b);
+    public  static  void SumRange(int a, int b){
+        int sum=0;
+        if(a<b){
+            for(int i=a; i<b; i++){
+                sum+=i;
+            }
+        }else{
+            System.out.println(0);
         }
+        System.out.println(sum);
     }
-    public static void Calc(){
+    public  static  void SumRange(){
         Scanner scanner=new Scanner(System.in);
         System.out.print("Enter a:");
-        double a=scanner.nextDouble();
+        int a=scanner.nextInt();
         System.out.print("Enter b:");
-        double b=scanner.nextDouble();
-        System.out.print("Enter n:");
-        int n=scanner.nextInt();
-        Calc(a,b,n);
+        int b=scanner.nextInt();
+        System.out.print("Enter c:");
+        int c=scanner.nextInt();
+        SumRange(a,b);
+        SumRange(b,c);
     }
     public static void main(String[] args) {
-        Calc();
+        SumRange();
     }
 }
