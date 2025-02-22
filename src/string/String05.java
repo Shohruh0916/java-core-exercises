@@ -14,6 +14,5 @@ public class String05 {
         }else{
             System.out.println("1-26 oraliqda son kiriting!");
         }
-
     }
 }
