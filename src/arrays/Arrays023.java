@@ -24,6 +24,7 @@ public class Arrays023 {
                 }
             }
         }
+
         int sum1=0,num1=0;
         for(int i=0; i<n; i++){
             sum1+=array[i];

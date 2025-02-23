@@ -15,6 +15,7 @@ public class Arrays027 {
         for (int i = 0; i < n; i++) {
             array[i] = scanner.nextInt();
         }
+
         for(int i=0; i<n-1; i++){
             if((array[i]%2<0 && array[i+1]%2<0) || (array[i]%2>0 && array[i+1]%2>0 ) ){
                 System.out.println(i+2);

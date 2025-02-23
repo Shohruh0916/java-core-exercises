@@ -15,6 +15,7 @@ public class Arrays021 {
         for(int i=0; i<n; i++){
             array[i]=scanner.nextInt();
         }
+
         int sum=0,num=0;
         for(int i=0; i<n; i++){
             if(i==k){

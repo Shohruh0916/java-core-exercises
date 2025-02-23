@@ -9,6 +9,7 @@ public class Arrays018 {
         for (int i = 0; i < 10; i++) {
             a[i] = scanner.nextInt();
         }
+
         int lastElement = a[9];
         int result = 0;
         for (int i = 0; i < 9; i++) {

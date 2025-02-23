@@ -19,6 +19,7 @@ public class Arrays024 {
         for (int i = 1; i < n - 1; i++) {
             if (array[i+1] - array[i] != result) {
                 result = 0;
+
                 break;
             }
         }

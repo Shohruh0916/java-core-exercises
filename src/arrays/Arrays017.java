@@ -23,6 +23,5 @@ public class Arrays017 {
                 System.out.println(array[right--]);
             }
         }
-
     }
 }

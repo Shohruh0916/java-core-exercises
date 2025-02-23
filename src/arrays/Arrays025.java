@@ -20,6 +20,7 @@ public class Arrays025 {
             if (array[i+1]/array[i] != result) {
                 result = 0;
                 break;
+
             }
         }
         System.out.println(result);
